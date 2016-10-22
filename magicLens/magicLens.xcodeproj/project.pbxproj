@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F650BF141DBAE8210075DF4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F650BF131DBAE8210075DF4C /* AppDelegate.swift */; };
+		F650BF161DBAE8210075DF4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F650BF151DBAE8210075DF4C /* ViewController.swift */; };
+		F650BF191DBAE8210075DF4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F650BF171DBAE8210075DF4C /* Main.storyboard */; };
+		F650BF1B1DBAE8210075DF4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F650BF1A1DBAE8210075DF4C /* Assets.xcassets */; };
+		F650BF1E1DBAE8210075DF4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F650BF1C1DBAE8210075DF4C /* LaunchScreen.storyboard */; };
+		F650BF291DBAE8210075DF4C /* magicLensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F650BF281DBAE8210075DF4C /* magicLensTests.swift */; };
+		F650BF341DBAE8210075DF4C /* magicLensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F650BF331DBAE8210075DF4C /* magicLensUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F650BF251DBAE8210075DF4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F650BF081DBAE8200075DF4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F650BF0F1DBAE8200075DF4C;
+			remoteInfo = magicLens;
+		};
+		F650BF301DBAE8210075DF4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F650BF081DBAE8200075DF4C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F650BF0F1DBAE8200075DF4C;
+			remoteInfo = magicLens;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F650BF101DBAE8210075DF4C /* magicLens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = magicLens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F650BF131DBAE8210075DF4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F650BF151DBAE8210075DF4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F650BF181DBAE8210075DF4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F650BF1A1DBAE8210075DF4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F650BF1D1DBAE8210075DF4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F650BF1F1DBAE8210075DF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F650BF241DBAE8210075DF4C /* magicLensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magicLensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F650BF281DBAE8210075DF4C /* magicLensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = magicLensTests.swift; sourceTree = "<group>"; };
+		F650BF2A1DBAE8210075DF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F650BF2F1DBAE8210075DF4C /* magicLensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = magicLensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F650BF331DBAE8210075DF4C /* magicLensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = magicLensUITests.swift; sourceTree = "<group>"; };
+		F650BF351DBAE8210075DF4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F650BF0D1DBAE8200075DF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F650BF211DBAE8210075DF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F650BF2C1DBAE8210075DF4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F650BF071DBAE8200075DF4C = {
+			isa = PBXGroup;
+			children = (
+				F650BF121DBAE8210075DF4C /* magicLens */,
+				F650BF271DBAE8210075DF4C /* magicLensTests */,
+				F650BF321DBAE8210075DF4C /* magicLensUITests */,
+				F650BF111DBAE8210075DF4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F650BF111DBAE8210075DF4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F650BF101DBAE8210075DF4C /* magicLens.app */,
+				F650BF241DBAE8210075DF4C /* magicLensTests.xctest */,
+				F650BF2F1DBAE8210075DF4C /* magicLensUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F650BF121DBAE8210075DF4C /* magicLens */ = {
+			isa = PBXGroup;
+			children = (
+				F650BF131DBAE8210075DF4C /* AppDelegate.swift */,
+				F650BF151DBAE8210075DF4C /* ViewController.swift */,
+				F650BF171DBAE8210075DF4C /* Main.storyboard */,
+				F650BF1A1DBAE8210075DF4C /* Assets.xcassets */,
+				F650BF1C1DBAE8210075DF4C /* LaunchScreen.storyboard */,
+				F650BF1F1DBAE8210075DF4C /* Info.plist */,
+			);
+			path = magicLens;
+			sourceTree = "<group>";
+		};
+		F650BF271DBAE8210075DF4C /* magicLensTests */ = {
+			isa = PBXGroup;
+			children = (
+				F650BF281DBAE8210075DF4C /* magicLensTests.swift */,
+				F650BF2A1DBAE8210075DF4C /* Info.plist */,
+			);
+			path = magicLensTests;
+			sourceTree = "<group>";
+		};
+		F650BF321DBAE8210075DF4C /* magicLensUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F650BF331DBAE8210075DF4C /* magicLensUITests.swift */,
+				F650BF351DBAE8210075DF4C /* Info.plist */,
+			);
+			path = magicLensUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F650BF0F1DBAE8200075DF4C /* magicLens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F650BF381DBAE8210075DF4C /* Build configuration list for PBXNativeTarget "magicLens" */;
+			buildPhases = (
+				F650BF0C1DBAE8200075DF4C /* Sources */,
+				F650BF0D1DBAE8200075DF4C /* Frameworks */,
+				F650BF0E1DBAE8200075DF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = magicLens;
+			productName = magicLens;
+			productReference = F650BF101DBAE8210075DF4C /* magicLens.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F650BF231DBAE8210075DF4C /* magicLensTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F650BF3B1DBAE8210075DF4C /* Build configuration list for PBXNativeTarget "magicLensTests" */;
+			buildPhases = (
+				F650BF201DBAE8210075DF4C /* Sources */,
+				F650BF211DBAE8210075DF4C /* Frameworks */,
+				F650BF221DBAE8210075DF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F650BF261DBAE8210075DF4C /* PBXTargetDependency */,
+			);
+			name = magicLensTests;
+			productName = magicLensTests;
+			productReference = F650BF241DBAE8210075DF4C /* magicLensTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F650BF2E1DBAE8210075DF4C /* magicLensUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F650BF3E1DBAE8210075DF4C /* Build configuration list for PBXNativeTarget "magicLensUITests" */;
+			buildPhases = (
+				F650BF2B1DBAE8210075DF4C /* Sources */,
+				F650BF2C1DBAE8210075DF4C /* Frameworks */,
+				F650BF2D1DBAE8210075DF4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F650BF311DBAE8210075DF4C /* PBXTargetDependency */,
+			);
+			name = magicLensUITests;
+			productName = magicLensUITests;
+			productReference = F650BF2F1DBAE8210075DF4C /* magicLensUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F650BF081DBAE8200075DF4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Shahrez Jan";
+				TargetAttributes = {
+					F650BF0F1DBAE8200075DF4C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 56PHWUGM56;
+						ProvisioningStyle = Automatic;
+					};
+					F650BF231DBAE8210075DF4C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 56PHWUGM56;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F650BF0F1DBAE8200075DF4C;
+					};
+					F650BF2E1DBAE8210075DF4C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 56PHWUGM56;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F650BF0F1DBAE8200075DF4C;
+					};
+				};
+			};
+			buildConfigurationList = F650BF0B1DBAE8200075DF4C /* Build configuration list for PBXProject "magicLens" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F650BF071DBAE8200075DF4C;
+			productRefGroup = F650BF111DBAE8210075DF4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F650BF0F1DBAE8200075DF4C /* magicLens */,
+				F650BF231DBAE8210075DF4C /* magicLensTests */,
+				F650BF2E1DBAE8210075DF4C /* magicLensUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F650BF0E1DBAE8200075DF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F650BF1E1DBAE8210075DF4C /* LaunchScreen.storyboard in Resources */,
+				F650BF1B1DBAE8210075DF4C /* Assets.xcassets in Resources */,
+				F650BF191DBAE8210075DF4C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F650BF221DBAE8210075DF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F650BF2D1DBAE8210075DF4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F650BF0C1DBAE8200075DF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F650BF161DBAE8210075DF4C /* ViewController.swift in Sources */,
+				F650BF141DBAE8210075DF4C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F650BF201DBAE8210075DF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F650BF291DBAE8210075DF4C /* magicLensTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F650BF2B1DBAE8210075DF4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F650BF341DBAE8210075DF4C /* magicLensUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F650BF261DBAE8210075DF4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F650BF0F1DBAE8200075DF4C /* magicLens */;
+			targetProxy = F650BF251DBAE8210075DF4C /* PBXContainerItemProxy */;
+		};
+		F650BF311DBAE8210075DF4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F650BF0F1DBAE8200075DF4C /* magicLens */;
+			targetProxy = F650BF301DBAE8210075DF4C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F650BF171DBAE8210075DF4C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F650BF181DBAE8210075DF4C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F650BF1C1DBAE8210075DF4C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F650BF1D1DBAE8210075DF4C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F650BF361DBAE8210075DF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F650BF371DBAE8210075DF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F650BF391DBAE8210075DF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56PHWUGM56;
+				INFOPLIST_FILE = magicLens/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.shahrez19.magicLens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F650BF3A1DBAE8210075DF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 56PHWUGM56;
+				INFOPLIST_FILE = magicLens/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.shahrez19.magicLens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F650BF3C1DBAE8210075DF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 56PHWUGM56;
+				INFOPLIST_FILE = magicLensTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.shahrez19.magicLensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/magicLens.app/magicLens";
+			};
+			name = Debug;
+		};
+		F650BF3D1DBAE8210075DF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 56PHWUGM56;
+				INFOPLIST_FILE = magicLensTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.shahrez19.magicLensTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/magicLens.app/magicLens";
+			};
+			name = Release;
+		};
+		F650BF3F1DBAE8210075DF4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 56PHWUGM56;
+				INFOPLIST_FILE = magicLensUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.shahrez19.magicLensUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = magicLens;
+			};
+			name = Debug;
+		};
+		F650BF401DBAE8210075DF4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 56PHWUGM56;
+				INFOPLIST_FILE = magicLensUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.shahrez19.magicLensUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = magicLens;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F650BF0B1DBAE8200075DF4C /* Build configuration list for PBXProject "magicLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F650BF361DBAE8210075DF4C /* Debug */,
+				F650BF371DBAE8210075DF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F650BF381DBAE8210075DF4C /* Build configuration list for PBXNativeTarget "magicLens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F650BF391DBAE8210075DF4C /* Debug */,
+				F650BF3A1DBAE8210075DF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F650BF3B1DBAE8210075DF4C /* Build configuration list for PBXNativeTarget "magicLensTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F650BF3C1DBAE8210075DF4C /* Debug */,
+				F650BF3D1DBAE8210075DF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F650BF3E1DBAE8210075DF4C /* Build configuration list for PBXNativeTarget "magicLensUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F650BF3F1DBAE8210075DF4C /* Debug */,
+				F650BF401DBAE8210075DF4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F650BF081DBAE8200075DF4C /* Project object */;
+}
